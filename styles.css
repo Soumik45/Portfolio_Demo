@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.txt-primary{
+    color: rgb(253, 110, 10);
+}
+
+.secondary-bg{
+    background: rgb(237, 225, 217);
+}
+
+.section-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+
+.section-desc{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+
+.header{
+    
+    background-image: url("./images/developer.png"),url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: contain,auto;
+    margin-bottom: 60px;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Open Sans";
+    margin: 20px 200px;
+}
+
+.nav-title{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 45px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    
+    border: none;
+
+    background: rgb(253, 110, 10);
+
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 00;
+    line-height: 20px;
+    letter-spacing: 0%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+    margin: 0px 35px 10px 200px;
+ 
+    
+}
+
+
+.banner-greet{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+   
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-profile{
+    width: 480px;
+}
+
+.banner-content .desc{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 310;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+   
+    
+}
+
+main{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 100px 120px;
+    text-align: center;
+}
+
+.white-border{
+    box-sizing: border-box;
+border: 1px solid rgb(0, 0, 0);
+background: rgb(255, 255, 255);
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-item .item-title{
+    margin-top: 30px;
+    font-family: Open Sans;
+    text-align: center;
+}
+
+
+.about-item .item-desc{
+   
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.skills{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+.tech .container{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.skill{
+    padding: 20px;
+    border-radius: 5px;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+border: 1px solid black;
+margin-bottom: 50px;
+}
+
+.skill-title{
+    margin-top: 10px;
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+
+
+}
+
+
+
+
+
+.skill-desc{
+    margin-top: 10px;
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0%;
+margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+
+.exp-desc{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 320;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+    }
+
+
+.exp-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 15px 0 15px 0;
+}
+
+.resume-col-title{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+margin: 15px 0 15px 0;
+}
+
+.resume-btn{
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+
+
+
+footer{
+    margin-top: 50px;
+    padding: 130px 230px;
+    display: flex;
+    gap: 70px;
+}
+footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],footer input[type="email"], footer textarea {
+    width: 100%;
+    display: block;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    
+}
+
+footer .section-title
+{
+    margin-bottom: 10px;
+}
+footer .section-desc{
+    margin-bottom: 10px;
+}
+
+footer .icons{
+    max-width: 120px;
+    display: flex;
+    gap: 15px;
+}
